@@ -4,8 +4,7 @@ ICO Development Concept for a Assignment by Sir Faisal (TOCI 3) by Muhammad Raza
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
+Site live here: https://razaanisico.herokuapp.com/
 
 ## Built With
 

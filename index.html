@@ -117,7 +117,7 @@
 
       <div class="jumbotron">
         <h1 class="display-5">RazaAnis Test Coin ICO</h1>
-        <p class="lead"><strong>0x8a681def5c9c268561ffe2e01264d87ec6c3d03c</strong></p>
+        <p class="lead"><strong>0x7119e7df4cddb1a9392bbb47520449f2984807da</strong></p>
         <h1 class="display-5">Total Raised</h1>
         <p class="lead"><strong id="amountRaised"></strong></p>
       </div>
@@ -161,7 +161,7 @@
           var MyContract = web3.eth.contract(abi);
 
           // initiate contract for an address
-          var myContractInstance = MyContract.at('0x8a681def5c9c268561ffe2e01264d87ec6c3d03c');
+          var myContractInstance = MyContract.at('0x7119e7df4cddb1a9392bbb47520449f2984807da');
 
           myContractInstance.totalEthInWei(function(err,data){
             document.getElementById('amountRaised').innerHTML = (data.toString(10)/1000000000000000000) + ' ETH';

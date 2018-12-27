@@ -97,7 +97,7 @@ contract MRazaAnisTestCoin is StandardToken { // CHANGE THIS. Update the contrac
     string public name;                   // Token Name
     uint8 public decimals;                // How many decimals to show. To be standard complicant keep it 18
     string public symbol;                 // An identifier: eg SBX, XPR etc..
-    string public version = 'H1.0'; 
+    string public version = 'H2.0'; 
     uint256 public unitsOneEthCanBuy;     // How many units of your coin can be bought by 1 ETH?
     uint256 public totalEthInWei;         // WEI is the smallest unit of ETH (the equivalent of cent in USD or satoshi in BTC). We'll store the total ETH raised via our ICO here.  
     address public fundsWallet;           // Where should the raised ETH go?
@@ -109,7 +109,7 @@ contract MRazaAnisTestCoin is StandardToken { // CHANGE THIS. Update the contrac
         totalSupply = 100000000000000000000000;                        // Update total supply (1000 for example) (CHANGE THIS)
         name = "MRazaAnisTestCoin";                                   // Set the name for display purposes (CHANGE THIS)
         decimals = 18;                                               // Amount of decimals for display purposes (CHANGE THIS)
-        symbol = "UBIT2018-046";                                             // Set the symbol for display purposes (CHANGE THIS)
+        symbol = "UBIT2018-46";                                             // Set the symbol for display purposes (CHANGE THIS)
         unitsOneEthCanBuy = 10;                                      // Set the price of your token for the ICO (CHANGE THIS)
         fundsWallet = msg.sender;                                    // The owner of the contract gets ETH
     }
